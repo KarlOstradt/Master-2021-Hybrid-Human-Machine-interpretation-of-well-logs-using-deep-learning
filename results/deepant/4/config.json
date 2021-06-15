@@ -1,0 +1,16 @@
+{
+    "model": "deepant",
+    "LOOKBACK_SIZE": 32,
+    "kernel_size": 15,
+    "n_filters": 21,
+    "padding": "causal",
+    "pool_size": 2,
+    "dense_layer_size": 10,
+    "dropout": 0.25,
+    "optimizer": "adam",
+    "loss": "mean_absolute_error",
+    "epochs": 2,
+    "unwanted_features": [
+        "DEPTH"
+    ]
+}

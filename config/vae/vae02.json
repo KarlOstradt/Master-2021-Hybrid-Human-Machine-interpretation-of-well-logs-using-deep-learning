@@ -1,0 +1,11 @@
+{
+    "model": "vae",
+    "intermediate_dims": [6,4],
+    "latent_dim": 2,
+    "optimizer": "adam",
+    "loss": "mean_absolute_error",
+    "batch_size_train": 64,
+    "batch_size_test": 1,
+    "epochs": 20,
+    "unwanted_features": ["DEPTH"]
+}

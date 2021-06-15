@@ -1,0 +1,15 @@
+{
+    "model": "ae",
+    "intermediate_dims": [
+        5
+    ],
+    "latent_dim": 3,
+    "optimizer": "adam",
+    "loss": "mean_absolute_error",
+    "batch_size_train": 64,
+    "batch_size_test": 1,
+    "epochs": 20,
+    "unwanted_features": [
+        "DEPTH"
+    ]
+}

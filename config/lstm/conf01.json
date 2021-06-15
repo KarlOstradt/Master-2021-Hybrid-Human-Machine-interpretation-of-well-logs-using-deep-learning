@@ -1,0 +1,10 @@
+{
+    "model": "lstm",
+    "LOOKBACK_SIZE": 12,
+    "lstm_neurons": [4],
+    "dropout": 0.2,
+    "optimizer": "adam",
+    "loss": "mean_absolute_error",
+    "epochs": 4,
+    "unwanted_features": ["DEPTH"]
+}
